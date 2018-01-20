@@ -42,6 +42,7 @@
                 height: 100px;
         }
         body{background: lightgray;
+                
         }
         #picture{float: left;
                 width: 150px;
@@ -77,8 +78,17 @@
         #contact {float:right;
                 padding: 10px;
         }
+        input { width: 100%;
+        }
+        #message {width: 100%;
+                padding: 50px;
+                line-height: 200%;
+        }
+        form {line-height: 200%;
+        }
+        #button {width:25%;}
          </style>
-           
+        
             
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -103,7 +113,22 @@
         <div id="main">
         <section id="about-me">
             <h1 style="color:#4aaaa5;">Contact</h1>   
-            
+            <p>
+                        <form>
+                                Name    <br> 
+                                <input type="text" name="firstname"><br>
+                                Email <br> 
+                                <input type="text" name="lastname">
+                                      
+                                Message
+                                <br> 
+                                <textarea rows="5" cols="81 "></textarea>
+                                <br>
+                                <input id="button" name="Submit" type="submit" value="Submit" />
+
+                         </form>
+                                 
+            </p>
             
         </section>
 
