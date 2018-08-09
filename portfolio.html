@@ -49,12 +49,15 @@ h2, h3{border-bottom: 2px solid lightgrey;
 #about{text-align: left;
 }
 #footer {
-                position:absolute;
-                bottom:0;
-                width:100%;
-                height:100px;   /* Height of the footer */
-                background:#6cf; 
-                }
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+        background-color: #666666;
+        padding: 30px;
+        border-top: solid 10px #4aaaa5;
+        color: white;
+        margin-top: 15px;
+      }  
 .btn{background-color:#4aaaa5;
 
 }
@@ -95,6 +98,7 @@ h2, h3{border-bottom: 2px solid lightgrey;
 .navbar{
         font-family: 'Kaushan Script', cursive;
       }
+
 </style>  
 </head>
 <header>
@@ -116,9 +120,9 @@ h2, h3{border-bottom: 2px solid lightgrey;
                              <nav class="navbar navbar-default navbar-fixed-top">
                                      <div class="container ">
                                             
-                                                    <a href="index.html" style="text-decoration : none; color :darkgrey; font-size: 20px">About</a>
-                                                    <a href="portfolio.html" style="text-decoration : none; color :darkgrey; font-size: 20px">Portfolio</a>
-                                                    <a href="contact.html" style="text-decoration : none; color :darkgrey; font-size: 20px">Contact</a>
+                                                    <a href="index.html" style="text-decoration : none; color :darkgrey; font-size: 30px">About</a>
+                                                    <a href="portfolio.html" style="text-decoration : none; color :darkgrey; font-size: 30px">Portfolio</a>
+                                                    <!-- <a href="contact.html" style="text-decoration : none; color :darkgrey; font-size: 20px">Contact</a> -->
                                      </div>     
                               </nav>    
                      </section>                          
@@ -172,13 +176,15 @@ h2, h3{border-bottom: 2px solid lightgrey;
                                 
                      
         </div>
-        <footer class="page-footer font-small blue fixed-bottom">
+        <footer class="page-footer font-small blue fixed-bottom" id="copyright">
   
                         <div class="footer-copyright text-center py-3" id="footer">
                           <a href="https://github.com/jphamxuan"> <img id="github" src="github.png"alt="github" hspace="10" style="width:50px;height:50px;"></a>
                           <a href="https://www.linkedin.com/in/josiah-pham-b88a04155/"><img id="portfolio" src="linkedin.png"alt="linkedin" hspace="10" style="width:50px;height:50px;"></a>
                           <a href="https://github.com/jphamxuan"><img id="stack" src="stackoverflow.svg"alt="stacked" hspace="10" style="width:50px;height:50px;"></a>
-                          <div> <p >© Copyright 2018 Josiah Pham</p></div>
+                          <a id="emailBtn" href="mailto:josiah.pham@gmail.com?Subject="><img id="gmail.com" src="gmail.png"alt="stacked" hspace="10" style="width:50px;height:50px;"></a>
+                          <div></div>
+                          <div style="margin:5px"> <p >© Copyright 2018 Josiah Pham</p></div>
                         </div>
                       
                         
